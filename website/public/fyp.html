@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP 2022/2023</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon -->
+</head>
+
+<body>
+    <header class="text-darkgray bg-lightorange font-title text-3xl">
+        <div class="container mx-auto flex flex-wrap p-8 flex-col md:flex-row items-center">
+        </div>
+    </header>
+
+    <body>
+        <section class="text-gray-600 font-body">
+            <div class="px-4 md:px-8 lg:px-16 pt-4 pb-4">
+                <div class="2xl:w-4/6 mx-auto">
+                    <div>
+                        <p class="font-bold text-xl md:text-3xl text-center mx-10 mt-10 mb-5">Multi-singer Mandarin Singing Voice Synthesis</p>
+                    </div>
+                    <div>
+                        <p class="text-xl md:text-2xl text-center mx-10 mt-8 mb-5">by HUI Ho Lung, 1155142333 and TANG Shan Yuan, 1155133935</p>
+                    </div>
+                    <div class="mt-10">
+                        <div class="sm:pl-8 sm:py-8 mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                            <p class="leading-relaxed text-lg md:text-xl mb-4">This is for the FYP. There are two methods: Singer Encoder and Singer Embedding Table. For Singer Encoder, a sample voice is needed. For Singer Embedding Table, users will need to specify singer IDs.</p>
+                            <p class="leading-relaxed text-lg md:text-xl mb-4">SE (x secs / mins) - gender: Singer encoder trained with (x secs / mins) male / female speech sample</p>
+                            <p class="leading-relaxed text-lg md:text-xl mb-4">TBL (singer ID) - gender: Singer embedding table with singer ID and gender</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天</p>
+                            <p class="text-l md:text-xl text-center">原曲</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天</p>
+                            <p class="text-l md:text-xl text-center">伴奏</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天伴奏.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Vocals)</p>
+                            <p class="text-l md:text-xl text-center">SE (5 secs) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_5sec_vocals.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Mixed)</p>
+                            <p class="text-l md:text-xl text-center">SE (5 secs) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_5sec_mix.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Vocals)</p>
+                            <p class="text-l md:text-xl text-center">SE (1 min) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_1min_vocals.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Mixed)</p>
+                            <p class="text-l md:text-xl text-center">SE (1 min) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_1min_mix.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Vocals)</p>
+                            <p class="text-l md:text-xl text-center">SE (5 mins) - Female</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_5min_vocals.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Mixed)</p>
+                            <p class="text-l md:text-xl text-center">SE (5 mins) - Female</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_se_5min_mix.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Vocals)</p>
+                            <p class="text-l md:text-xl text-center">TBL (Singer ID: 1) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_tbl_male_vocals.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Mixed)</p>
+                            <p class="text-l md:text-xl text-center">TBL (Singer ID: 1) - Male</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_tbl_male_mix.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                    <div class="flex flex-col xl:flex-row rounded-lg xl:h-96 overflow-hidden m-5">
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Vocals)</p>
+                            <p class="text-l md:text-xl text-center">TBL (Singer ID: 2) - Female</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_tbl_female_vocals.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="object-scale-down h-full w-full">
+                            <p class="p-4 text-xl md:text-2xl text-center">晴天 (Mixed)</p>
+                            <p class="text-l md:text-xl text-center">TBL (Singer ID: 2) - Female</p>
+                            <audio controls class="h-16 md:h-24 w-full px-4">
+                                <source src="Musics/Songs/晴天/晴天_tbl_female_mix.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    <footer class="text-darkgray bg-lightorange font-body">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        </div>
+    </footer>
+</body>
+
+</html>
